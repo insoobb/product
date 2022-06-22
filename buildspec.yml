@@ -4,12 +4,12 @@ version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "user08-newproduct"
+    _PROJECT_NAME: "user08-product-NEW2"
 
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      java: corretto11
       docker: 18
     commands:
       - echo install kubectl
